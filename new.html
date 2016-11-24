@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Coffee Break</title>
+  </head>
+  <body>
+    <h1>Coffee Breakers</h1>
+    <hr>
+    <label>Name: </label>
+    <input type="text" class="form-input" value="Marcus" id="name"/><br/>
+    <label>Date: </label>
+    <input type="text" class="form-input" value="10/10/2010" id="date"/><br/>
+    <label>Hour: </label>
+    <input type="text" class="form-input" value="10:00" id="hour"/><br/>
+    <label>Location: </label>
+    <input type="text" class="form-input" value="Brasília, DF" id="location"/><br/>
+
+    <button type="button" class="createCB">Create</button>
+    <button type="button" onclick="location.href='show.html'">Back</button>
+
+    <!-- Initialize firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script src="firebase_start.js"></script>
+    <!-- Specific javascript -->
+    <script src="new.js"></script>
+  </body>
+</html>

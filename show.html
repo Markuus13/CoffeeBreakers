@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show users</title>
+  </head>
+  <body>
+    <h1>Coffee Breakers</h1>
+    <hr>
+    <h3>Events</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Hour</th>
+          <th>Location</th>
+          <th>Name</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="columns">
+      </tbody>
+    </table>
+    <button type="button" onclick="location.href='new.html'">New Event</button>
+
+    <!-- Initialize firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script src="firebase_start.js"></script>
+    <!-- Specific javascript -->
+    <script src="show.js"></script>
+  </body>
+</html>
