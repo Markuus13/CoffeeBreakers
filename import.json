@@ -1,0 +1,16 @@
+{
+  "event": {
+    "eventuid1": {
+      "name": "Primeiro Coffee Break",
+      "date": "12/12/2016",
+      "hour": "12:00",
+      "location": "Asa norte, Universidade de Brasília"
+    },
+    "eventuid2": {
+      "name": "Segundo Coffee Break",
+      "date": "01/01/2017",
+      "hour": "18:00",
+      "location": "Planaltina, casa do Marcus"
+    }
+  }
+}
